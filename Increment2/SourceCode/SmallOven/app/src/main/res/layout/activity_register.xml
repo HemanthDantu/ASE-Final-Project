@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ase.smalloven.register"
+    android:background="#c8009c9a"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="FIRST NAME"
+            android:id="@+id/textView8"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/txtFirstName"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:hint="Enter First Name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="LAST NAME"
+            android:id="@+id/textView9"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/txtLastName"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:hint="Enter Last Name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="EMAIL ADDRESS"
+            android:id="@+id/textView3"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/txtEmail"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:hint="Enter Email Address" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="PASSWORD"
+            android:id="@+id/textView4"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/txtPassword"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:hint="Enter Password" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="POSTAL PINCODE"
+            android:id="@+id/textView5"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/txtPincode"
+            android:hint="Enter Pincode" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Weekly Calorie Target"
+            android:id="@+id/textView6"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/txtWeeklyCalorieTarget"
+            android:hint="Enter Weekly Calorie Target" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"
+            android:id="@+id/BtnRegister"
+            android:textSize="18sp"
+            android:background="#ffffff"
+            android:layout_margin="5dp"
+            android:padding="10dp" />
+    </LinearLayout>
+
+</LinearLayout>
+
