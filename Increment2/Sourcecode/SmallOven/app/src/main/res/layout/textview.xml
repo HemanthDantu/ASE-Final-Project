@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical" >
+
+<TextView
+    android:id="@+id/Results"
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:textSize="16sp"
+    android:textColor="#000000"
+    android:layout_margin="5dp"
+    android:gravity="center_vertical|center_horizontal|left"
+    android:nestedScrollingEnabled="false"
+    android:maxLines="1">
+</TextView>
+    </LinearLayout>
