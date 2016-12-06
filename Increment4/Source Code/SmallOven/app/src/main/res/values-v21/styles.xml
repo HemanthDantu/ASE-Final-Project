@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="MaterialTheme" parent="ParentMaterialTheme">
+
+    </style>
+
+
+
+</resources>

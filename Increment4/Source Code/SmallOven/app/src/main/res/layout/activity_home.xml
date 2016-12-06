@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:background="#b5009c9a">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:id="@+id/imageView9"
+                android:layout_margin="10dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_appicon"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Cook Book Recipes"
+                android:id="@+id/textView35"
+                android:layout_gravity="center"
+                android:textSize="24dp"
+                android:textColor="#fdfbfb"
+                android:layout_weight="1"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView2" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="#aaffffff"
+                    android:clickable="true"
+                    android:id="@+id/layout_search">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="70dp"
+                        android:id="@+id/imageView7"
+                        android:layout_weight="0.30"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/search"
+                        android:layout_margin="5dp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Search Recpie"
+                        android:id="@+id/textView31"
+                        android:layout_weight="0.70"
+                        android:layout_gravity="center"
+                        android:textStyle="italic"
+                        android:textColor="#eb000000"
+                        android:layout_margin="5dp"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="#aaffffff"
+                    android:clickable="true"
+                    android:id="@+id/layout_stores">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="70dp"
+                        android:id="@+id/imageView6"
+                        android:layout_weight="0.30"
+                        android:src="@drawable/stores"
+                        android:scaleType="fitXY"
+                        android:layout_margin="5dp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Stores Around Me"
+                        android:id="@+id/textView28"
+                        android:layout_gravity="center_vertical|left"
+                        android:layout_weight="0.70"
+                        android:layout_margin="5dp"
+                        android:textStyle="italic"
+                        android:textColor="#eb000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="#aaffffff"
+                    android:clickable="true"
+                    android:id="@+id/layout_settings">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="70dp"
+                        android:id="@+id/imageView8"
+                        android:layout_weight="0.30"
+                        android:src="@drawable/settings"
+                        android:scaleType="fitXY"
+                        android:layout_margin="5dp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Settings    "
+                        android:id="@+id/textView33"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.70"
+                        android:layout_margin="5dp"
+                        android:textStyle="italic"
+                        android:textColor="#eb000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="#aaffffff"
+                    android:clickable="true"
+                    android:id="@+id/layout_weeklymeal">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="70dp"
+                        android:id="@+id/imageView10"
+                        android:layout_weight="0.30"
+                        android:scaleType="fitXY"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/weekly" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Weekly Meal"
+                        android:id="@+id/textView37"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.70"
+                        android:layout_margin="5dp"
+                        android:textStyle="italic"
+                        android:textColor="#eb000000"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="#aaffffff"
+                    android:clickable="true"
+                    android:id="@+id/layout_scanitem">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="70dp"
+                        android:id="@+id/imageView11"
+                        android:layout_weight="0.30"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/scan"
+                        android:layout_margin="5dp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Scan Item"
+                        android:id="@+id/textView38"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.70"
+                        android:layout_margin="5dp"
+                        android:textStyle="italic"
+                        android:textColor="#eb000000"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
